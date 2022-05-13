@@ -2,15 +2,41 @@
 
 ![image info](./static/img/logo.png)
 
-EVOPS: Benchmark for plane segmentation algorithms.
+<p style="font-size: 15pt; font-weight: bold;">
+     EVOPS: library for evaluating plane segmentation algorithms.
+</p>
 
-Benchmark for plane segmentation from 3D data, both from RGBD images and LiDAR point clouds (PC).
+<p style="font-size: 14pt;">
+     EVOPS is an open-source python library that provides various metrics for evaluating the results of the algorithms for segmenting planes from point clouds collected from LIDARs and RGBD devices. 
+</p>
 
 [![Build and publish](https://github.com/MobileRoboticsSkoltech/evops/actions/workflows/ci.yml/badge.svg)](https://github.com/MobileRoboticsSkoltech/evops/actions/workflows/ci.yml)
 
-# Install package
-```shell
-pip3 install evops
+
+<p style="font-size: 14pt;">
+     List of metrics implemented in the library:
+</p>
+
+<ul style="font-size: 14pt;">
+      <li>Intersection over Union (IoU)</li>
+      <li>Dice </li>
+      <li>Precision</li>
+      <li>Recall</li>
+      <li>Mean of some metric</li>
+      <li>Under segmented percent</li>
+      <li>Over segmented percent</li>
+      <li>Noise percent</li>
+      <li>Missed percent</li>
+</ul>
+
+# Python quick start
+
+<p style="font-size: 14pt;">
+     Library can be installed using the pip package manager:
+</p>
+
+```bash
+$ pip install evops
 ```
 
 # Citation

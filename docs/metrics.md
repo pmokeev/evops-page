@@ -1,13 +1,17 @@
-# DICE
+# Intersection over Union (IoU)
 
-# IoU
-
-# Mean
+# Dice
 
 # Precision
 
-# Accuracy
-
 # Recall
 
-# F-score
+# Mean of some metric
+
+# Under segmented percent
+
+# Over segmented percent
+
+# Noise percent
+
+# Missed percent
