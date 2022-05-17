@@ -1,6 +1,6 @@
 # Introduction
 
-![image info](./static/img/logo.png)
+<img src="./static/img/logo.png" width="350" height="350" />
 
 <p style="font-size: 15pt; font-weight: bold;">
      EVOPS: library for evaluating plane segmentation algorithms.
